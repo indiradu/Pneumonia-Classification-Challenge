@@ -1,0 +1,18 @@
+# RSNA data and medical images: never upload
+data/
+*.dcm
+*.csv
+*.png
+*.jpg
+figs/
+# report build files
+*.pdf
+*.zip
+*.aux
+*.log
+# Python / Jupyter / model files
+.ipynb_checkpoints/
+__pycache__/
+*.pth
+*.pt
+.DS_Store
